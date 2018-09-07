@@ -8,7 +8,7 @@ def line(deli_line)
     number = 1
     current_line = []
     deli_line.each do |people|
-      current_line << "#{number}. #{people} "
+      current_line << "#{number}. #{people}"
       number += 1
     end
     puts "The current is currently: " + current_line.join(' ')
