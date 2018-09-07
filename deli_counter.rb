@@ -12,4 +12,5 @@ def line(deli_line)
       number += 1
     end
     "The current line is: " + current_line.join(' ')
+  end
 end
