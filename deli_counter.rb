@@ -21,6 +21,9 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{position} in line."
 end
 
-def now_serving
-
+def now_serving(array)
+  serving = array[0]
+  array.shift
+  puts "Currently serving #{serving}."
+  puts "There is nobody waiting to be served!" if array.size == 0
 end
