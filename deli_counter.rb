@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(deli_line)
 
-  if deli_line.length == 0
+  if deli_line.size == 0
     return "The line is currently empty."
   else
     number = 1
