@@ -18,4 +18,4 @@ end
 def take_a_number(array, name)
   position = array.length + 1
   puts "Welcome, #{name}. You are number #{position} in line."
-  
+end
