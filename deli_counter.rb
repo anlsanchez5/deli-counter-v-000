@@ -11,6 +11,6 @@ def line(deli_line)
       current_line << "#{number}. #{people} "
       number += 1
     end
-    "The current line is: " + current_line.join(' ')
+    puts "The current line is: " + current_line.join(' ')
   end
 end
